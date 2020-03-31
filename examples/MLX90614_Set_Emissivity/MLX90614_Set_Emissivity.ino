@@ -54,6 +54,9 @@ void setup()
   therm.begin(); // Initialize thermal IR sensor
   therm.setUnit(TEMP_F); // Set the library's units to Farenheit
 
+  //For MLX90614xCx version device
+  therm.setDeviceType(MLX90614xCx);
+
   // Call setEmissivity() to configure the MLX90614's 
   // emissivity compensation:
   therm.setEmissivity(newEmissivity);

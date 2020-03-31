@@ -7,6 +7,8 @@ SparkFun MLX90614 Arduino Library
 
 An Arduino library that interfaces with the MLX90614 non-contact infrared thermometer over a 2-wire, I2C-like interface (SMBus). 
 
+This repo enhances the original repo from SparkFun for setting the Emissitivity in newer version of MLX90614 device i.e. MLX90614xCx by setting the device type before setting the Emissitivity, see the example MLX90614_Set_Emissivity.ino.
+
 Repository Contents
 -------------------
 
